@@ -1,0 +1,29 @@
+@import "./variable";
+body {
+  background-color: $dark;
+  list-style: none;
+}
+
+.heroText {
+  color: $textw;
+  font-family: "orbitron", sans-serif;
+  font-weight: 1200;
+  font-size: 3.7vw;
+  //   width: 70vh;
+  padding: 0 10vw;
+  text-align: center;
+  margin-top: 13vh;
+}
+.avatar {
+  margin-top: 10px;
+}
+.subText {
+  font-family: century-gothic, sans-serif;
+  // font-family: "Josefin Sans", sans-serif;
+  margin-top: 8vh;
+  font-size: 1.8vw;
+  span {
+    color: $light;
+    text-shadow: $light 20px;
+  }
+}
