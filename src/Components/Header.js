@@ -7,7 +7,7 @@ function Header() {
     //     do
     // }
     return (
-        <div>
+        <div >
             <header className="head">
                 {/* <img src="https://img.icons8.com/material-outlined/24/000000/logo--v2.png"/> */}
                 <div className="logo">

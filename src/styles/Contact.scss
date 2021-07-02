@@ -1,0 +1,16 @@
+@import "../styles/variable";
+.contact {
+  background-color: $light;
+  text-align: center;
+  height: 65vh;
+  h3 {
+    // font-family:orbitron;
+    font-family: bat;
+    padding: 30px;
+    padding-top: 50px;
+    color: white;
+    font-size: 2rem;
+    margin: 0 30vw;
+    text-align: center;
+  }
+}
