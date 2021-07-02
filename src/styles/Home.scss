@@ -3,22 +3,36 @@ body {
   background-color: $dark;
   list-style: none;
 }
+@font-face {
+  font-family: airstrike;
+  src: url(../Fonts/batmfa__.ttf);
+}
+@font-face {
+  font-family: Airstrike;
+  src: url(../Fonts/ethnocentricrg.ttf);
+}
+@font-face {
+  font-family: AirstrikeIta;
+  src: url(../Fonts/spaceage.ttf);
+}
 
 .heroText {
   color: $textw;
-  font-family: "orbitron", sans-serif;
+  // font-family: "orbitron", sans-serif;
+  font-family: "airstrike";
   font-weight: 1200;
-  font-size: 3.7vw;
+  font-size: 4.5vw;
   //   width: 70vh;
   padding: 0 10vw;
   text-align: center;
-  margin-top: 13vh;
+  margin-top: 8vh;
 }
 .avatar {
   margin-top: 10px;
 }
 .subText {
   font-family: century-gothic, sans-serif;
+  // font-family: AirstrikeIta;
   // font-family: "Josefin Sans", sans-serif;
   margin-top: 8vh;
   font-size: 1.8vw;

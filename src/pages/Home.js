@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 function Home() {
     return (
         <div>
-            <h1 className="heroText" style={{ height: "100vh" }}>
+            <h1 className="heroText" style={{ minHeight: "100vh" }}>
                 <b> Front-End Developer and Open Source Enthusiast</b>
                 <div className="avatar">
                     <StaticImage src="../images/avatar.svg" alt="PG" height={205} placeholder="blurred" />

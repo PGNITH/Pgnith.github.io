@@ -3,7 +3,7 @@ import '../styles/About.scss'
 import { StaticImage } from "gatsby-plugin-image"
 function About() {
     return (
-        <div className="AboutMe" style={{ height: "100vh" }}>
+        <div className="AboutMe">
             <div className="heroImage">
                 <StaticImage src="../images/hero.svg" alt="PC" />
             </div>
