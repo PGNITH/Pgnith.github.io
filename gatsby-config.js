@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/PGLOGOPURPLE1.svg",
       },
     },
     {
@@ -23,6 +23,7 @@ module.exports = {
           `Orbitron\:300,400,500`,
           `Poppins\:100`,
           `Josefin Sans\:100`,
+          `Righteous\:400`,
           `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
         ],
         display: 'swap'

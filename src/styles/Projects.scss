@@ -3,18 +3,28 @@
   font-family: batman;
   src: url(../Fonts/batmfa__.ttf);
 }
+@font-face {
+  font-family: baty;
+  src: url(../Fonts/batmfo__.ttf);
+}
 .projects {
   h1 {
-    font-family: Airstrike;
+    font-family: moon;
+    font-size: 2rem;
+    // font-family: "Righteous";
     color: white;
     text-align: center;
     padding: 30px;
   }
   p {
-    font-family: "roboto";
+    font-family: moon;
     color: white;
     text-align: center;
     word-spacing: 5px;
+    // width: 80vw;
+    padding: 0 20vw;
+    // font-size: 1.5rem;
+    // text-align: center;
   }
   .back {
     background-color: $light;
@@ -37,4 +47,24 @@
     // border: 3px red groove;
     border-radius: 8px;
   }
+}
+
+@media screen and (max-width: 480px) {
+  .container .project {
+    margin: 10px;
+
+    background-color: #ffffff;
+    // height: 300px;
+    &:nth-child(1) {
+      margin-top: 10vh;
+    }
+
+    min-width: 90vw;
+    height: 200px;
+    // border: 3px red groove;
+    border-radius: 8px;
+  }
+}
+#git:hover {
+  color: yellow;
 }

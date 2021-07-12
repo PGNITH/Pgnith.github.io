@@ -1,10 +1,21 @@
 @import "./variable";
+@font-face {
+  font-family: moon;
+  src: url(../Fonts/Moonrising.ttf);
+}
+@media only screen and (min-width: 600px) {
+}
+
 .SkillRow {
   display: flex;
-
+  min-height: 90vh;
   align-items: stretch;
   justify-content: center;
   flex-flow: wrap;
+  overflow-x: clip;
+  margin-bottom: 30vh;
+  margin-top: -100px;
+  z-index: 100;
 
   .skill {
     min-width: 300px;
@@ -19,7 +30,7 @@
     .set {
       display: grid;
       //   display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 33.33% 33.33% 33.33%;
       //   text-align: left;
       li {
         color: #3a3a3a;
@@ -28,23 +39,68 @@
       }
     }
     background-color: #ffffff;
+    // height: 100vh;
     width: 23vw;
-    // font-family: Airstrike;
-    font-family: "orbitron", sans-serif;
+    // font-family: moon;
+    // font-family: "orbitron", sans-serif;
+    // font-family: roboto;
+    font-family: "Righteous";
     font-size: 1rem;
     padding: 10px;
     padding-top: 40px;
     text-align: center;
     // border-radius: 5px;
-    &:nth-child(1) {
+    &:nth-child(2) {
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
-      border-right: 2px groove #9a9a9a;
+      border-right: 2px groove rgba(154, 154, 154, 10%);
     }
-    &:nth-child(3) {
+    &:nth-child(4) {
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
-      border-left: 2px groove #9a9a9a;
+      border-left: 2px groove rgba(154, 154, 154, 10%);
     }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #Skills {
+  }
+  #mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #mobile {
+    color: white;
+    font-family: moon;
+  }
+  .SkillRow {
+    margin-top: 340px;
+  }
+  .skill:nth-child(2) {
+    // border-top-left-radius: 10px;
+    // border-bottom-left-radius: 10px;
+    // border-bottom-ri-radius: 10px;
+
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+    border-right: 2px groove rgba(154, 154, 154, 10%);
+  }
+  .skill:nth-child(3) {
+    // border-top-left-radius: 10px;
+    // border-bottom-left-radius: 10px;
+    // border-bottom-ri-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+    border-right: 2px groove rgba(154, 154, 154, 10%);
+  }
+  .skill:nth-child(4) {
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 25px;
+    border-left: 2px groove rgba(154, 154, 154, 10%);
   }
 }

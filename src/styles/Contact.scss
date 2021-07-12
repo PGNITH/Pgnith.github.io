@@ -5,12 +5,71 @@
   height: 65vh;
   h3 {
     // font-family:orbitron;
-    font-family: bat;
+    font-family: roboto;
     padding: 30px;
     padding-top: 50px;
     color: white;
-    font-size: 2rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
     margin: 0 30vw;
     text-align: center;
+  }
+  .logow {
+    margin-top: 40px;
+  }
+  h2 {
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    // font-weight: normal;
+  }
+  .cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // word-spacing: 20px;
+    li {
+      border: 1px white solid;
+      margin: 10px;
+      padding: 5px;
+      width: 60px;
+      // height: 60px;
+      // scale: 10;
+      border-radius: 300px;
+    }
+  }
+}
+
+#gat {
+  padding: 30px;
+}
+@media screen and (max-width: 480px) {
+  .contact {
+    min-height: 105vh;
+
+    #quote {
+      margin: 0;
+    }
+    .developer {
+      margin: 0;
+    }
+  }
+}
+
+.cont {
+  a {
+    li:hover {
+      background-color: #ffffff;
+    }
+
+    #gm:hover {
+      color: rgb(117, 16, 247);
+    }
+    #gi:hover {
+      color: rgb(117, 16, 247);
+    }
+    #li:hover {
+      color: rgb(117, 16, 247);
+    }
   }
 }
