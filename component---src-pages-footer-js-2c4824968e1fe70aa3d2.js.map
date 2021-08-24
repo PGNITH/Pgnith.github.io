@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://portfolio/./src/pages/Footer.js"],"names":[],"mappings":"gIAUA,UARA,WACI,OACI","file":"component---src-pages-footer-js-2c4824968e1fe70aa3d2.js","sourcesContent":["import React from 'react'\r\n\r\nfunction Footer() {\r\n    return (\r\n        <div>\r\n\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Footer\r\n"],"sourceRoot":""}
