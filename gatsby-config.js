@@ -24,6 +24,7 @@ module.exports = {
           `Poppins\:100`,
           `Josefin Sans\:100`,
           `Righteous\:400`,
+          `Montserrat`,
           `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
         ],
         display: 'swap'

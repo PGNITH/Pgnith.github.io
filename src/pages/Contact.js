@@ -10,7 +10,7 @@ function Contact() {
         <div className="contact">
             <StaticImage StaticImage src="../images/Logo.svg" placeholder="blurred" />
             <StaticImage className="logow" src="../images/PGLOGODARK.svg" alt="PG" height={205} placeholder="blurred" />
-            <h3 id="quote"> Living, learning, & leveling up one day at a time.</h3>
+            <h3 id="quote"> Living, Learning, & Leveling up one day at a time.</h3>
             <FontAwesomeIcon icon={faCode} size='2x' />
             <ul className="cont">
 
