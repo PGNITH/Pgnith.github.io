@@ -1,106 +1,121 @@
 @import "../styles/variable";
 @font-face {
-  font-family: batman;
-  src: url(../Fonts/batmfa__.ttf);
+	font-family: batman;
+	src: url(../Fonts/batmfa__.ttf);
 }
 @font-face {
-  font-family: baty;
-  src: url(../Fonts/batmfo__.ttf);
+	font-family: baty;
+	src: url(../Fonts/batmfo__.ttf);
 }
 .projects {
-  h1 {
-    font-family: moon;
-    font-size: 2rem;
-    // font-family: "Righteous";
-    color: white;
-    text-align: center;
-    padding: 30px;
-  }
-  p {
-    font-family: moon;
-    color: white;
-    text-align: center;
-    word-spacing: 5px;
-    // width: 80vw;
-    padding: 0 20vw;
-    // font-size: 1.5rem;
-    // text-align: center;
-  }
-  .back {
-    background-color: $light;
-    height: 60vh;
-  }
+	h1 {
+		font-family: moon;
+		font-size: 2rem;
+		// font-family: "Righteous";
+		color: white;
+		text-align: center;
+		padding: 30px;
+	}
+	p {
+		font-family: moon;
+		color: white;
+		text-align: center;
+		word-spacing: 5px;
+		// width: 80vw;
+		padding: 0 20vw;
+		// font-size: 1.5rem;
+		// text-align: center;
+	}
+	.back {
+		background-color: $light;
+		height: 60vh;
+		.sort {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			button {
+				background-color: #ffffff;
+				padding: 15px;
+				margin: 5px;
+				margin-left: 25px;
+				border: none;
+				font-family: moon;
+				border-radius: 8px;
+				color: #3a3a3a;
+			}
+		}
+	}
 }
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -20vh;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 70px;
-  .project {
-    margin: 10px;
-    overflow: hidden;
-    background-color: white;
-    height: 266px;
-    min-width: 25rem;
-    // border: 3px red groove;
-    // border-radius: 8px;
-    border: 10px solid #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -20vh;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 70px;
+	.project {
+		margin: 10px;
+		overflow: hidden;
+		background-color: white;
+		height: 266px;
+		min-width: 25rem;
+		// border: 3px red groove;
+		// border-radius: 8px;
+		border: 10px solid #ffffff;
 
-    .overlay {
-      display: none;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      opacity: 0.8;
-      background-color: black;
-      z-index: 100;
+		.overlay {
+			display: none;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			opacity: 0.8;
+			background-color: black;
+			z-index: 100;
 
-      h1 {
-        font-family: "Montserrat";
-      }
-      hr {
-        // width: "105px";
-        width: 30%;
-        &:hover {
-          width: 60%;
-        }
-      }
-      p {
-        margin-left: 0;
-        padding: 0;
-      }
-      &:hover {
-        transition: all ease 0.2s;
-      }
-    }
-    &:hover {
-      border-bottom: 10px solid #9a9a9a;
-      transition-property: all ease 2s;
-    }
-  }
+			h1 {
+				font-family: "Montserrat";
+			}
+			hr {
+				// width: "105px";
+				width: 30%;
+				&:hover {
+					width: 60%;
+				}
+			}
+			p {
+				margin-left: 0;
+				padding: 0;
+			}
+			&:hover {
+				transition: all ease 0.2s;
+			}
+		}
+		&:hover {
+			border-bottom: 10px solid #9a9a9a;
+			transition-property: all ease 2s;
+		}
+	}
 }
 
 @media screen and (max-width: 480px) {
-  .container .project {
-    margin: 10px;
+	.container .project {
+		margin: 10px;
 
-    background-color: #ffffff;
-    // height: 300px;
-    &:nth-child(1) {
-      margin-top: 10vh;
-    }
+		background-color: #ffffff;
+		// height: 300px;
+		&:nth-child(1) {
+			margin-top: 10vh;
+		}
 
-    min-width: 90vw;
-    height: 200px;
-    // border: 3px red groove;
-    // border-radius: 8px;
-  }
+		min-width: 90vw;
+		height: 200px;
+		// border: 3px red groove;
+		// border-radius: 8px;
+	}
 }
 #git:hover {
-  color: yellow;
+	color: yellow;
 }
 // #prj {
 //   background-image: url("../images/screenshot.png");
@@ -108,8 +123,8 @@
 // }
 
 .container .project:hover {
-  .overlay {
-    transition: all 0.5s ease;
-    display: block;
-  }
+	.overlay {
+		transition: all 0.5s ease;
+		display: block;
+	}
 }

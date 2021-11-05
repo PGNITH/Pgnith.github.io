@@ -1,96 +1,96 @@
 @import "./variable";
 body {
-  background-color: $dark;
-  list-style: none;
+	background-color: $dark;
+	list-style: none;
 }
 @font-face {
-  font-family: bat;
-  src: url(../Fonts/batmfa__.ttf);
+	font-family: bat;
+	src: url(../Fonts/batmfa__.ttf);
 }
 @font-face {
-  font-family: Airstrike;
-  src: url(../Fonts/ethnocentricrg.ttf);
+	font-family: Airstrike;
+	src: url(../Fonts/ethnocentricrg.ttf);
 }
 @font-face {
-  font-family: AirstrikeIta;
-  src: url(../Fonts/spaceage.ttf);
+	font-family: AirstrikeIta;
+	src: url(../Fonts/spaceage.ttf);
 }
 
 .heroText {
-  color: $textw;
-  // font-family: "orbitron", sans-serif;
-  font-family: "airstrike";
-  font-weight: 1200;
-  font-size: 4rem;
-  //   width: 70vh;
-  padding: 0 10vw;
-  text-align: center;
-  margin-top: 7.6vh;
-  // border: red groove 10px;
+	color: $textw;
+	// font-family: "orbitron", sans-serif;
+	font-family: "airstrike";
+	font-weight: 1200;
+	font-size: 4rem;
+	//   width: 70vh;
+	padding: 0 10vw;
+	text-align: center;
+	margin-top: 7.6vh;
+	// border: red groove 10px;
 }
 .avatar {
-  margin-top: 10px;
+	margin-top: 10px;
 }
 .subText {
-  font-family: roboto;
-  // font-family: AirstrikeIta;
-  // font-family: "Josefin Sans", sans-serif;
-  margin-top: 8vh;
-  font-size: 1.4rem;
-  font-family: moon;
-  span {
-    color: #6718f2;
-    font-weight: lighter;
-    font-size: 1.4rem;
-    // text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
-    // font-family: roboto;
-    font-family: moon;
-    // font-family: batma;
+	font-family: roboto;
+	// font-family: AirstrikeIta;
+	// font-family: "Josefin Sans", sans-serif;
+	margin-top: 8vh;
+	font-size: 1.4rem;
+	font-family: moon;
+	span {
+		color: #6718f2;
+		font-weight: lighter;
+		font-size: 1.4rem;
+		// text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
+		// font-family: roboto;
+		font-family: moon;
+		// font-family: batma;
 
-    text-shadow: $light 20px;
-    // animation: glow 1s ease-in-out infinite alternate;
-  }
+		text-shadow: $light 20px;
+		// animation: glow 1s ease-in-out infinite alternate;
+	}
 }
 @font-face {
-  font-family: batma;
-  src: url(../Fonts/NightMachine.otf);
+	font-family: batma;
+	src: url(../Fonts/NightMachine.otf);
 }
 @-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 10px #510bac, 0 0 12px #510bac,
-      0 0 10px #510bac, 0 0 30px #510bac, 0 0 20px #510bac;
-  }
+	from {
+		text-shadow: 0 0 5px #fff, 0 0 8px #fff, 0 0 10px #510bac, 0 0 12px #510bac,
+			0 0 10px #510bac, 0 0 30px #510bac, 0 0 20px #510bac;
+	}
 
-  to {
-    text-shadow: 0 0 2px #fff, 0 0 3px #fcf4f8, 0 0 4px #91898d, 0 0 5px #ffffff,
-      0 0 6px #c9bfc4, 0 0 7px #cfc1c8, 0 0 8px #e9e3e6;
-  }
+	to {
+		text-shadow: 0 0 2px #fff, 0 0 3px #fcf4f8, 0 0 4px #91898d, 0 0 5px #ffffff,
+			0 0 6px #c9bfc4, 0 0 7px #cfc1c8, 0 0 8px #e9e3e6;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  .heroText {
-    color: #ffffff;
-    font-family: "Airstrike";
+	.heroText {
+		color: #ffffff;
+		font-family: "Airstrike";
 
-    font-size: 10vw;
+		font-size: 10vw;
 
-    text-align: center;
-    font-size: 6vw;
-    margin-top: 10vw;
-    padding: 3px;
+		text-align: center;
+		font-size: 6vw;
+		margin-top: 10vw;
+		padding: 3px;
 
-    margin-top: 7.6vh;
-  }
-  .avatar {
-    margin-top: 10vh;
-  }
+		margin-top: 7.6vh;
+	}
+	.avatar {
+		margin-top: 10vh;
+	}
 }
 
 #htxt:hover {
-  // // -webkit-text-fill-color: transparent;
-  // -webkit-text-stroke: #6718f2;
-  color: #6718f2;
-  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #ffffff;
+	// // -webkit-text-fill-color: transparent;
+	// -webkit-text-stroke: #6718f2;
+	color: #6718f2;
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #ffffff;
 }
